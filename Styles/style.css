@@ -1,0 +1,131 @@
+.con-info {
+  background-color: black;
+}
+
+.about {
+  text-align: justify;
+  text-justify: auto;
+  color: #33415c;
+}
+.about-style {
+  color: #002855;
+  text-shadow: #002855;
+  text-align: justify;
+  font-size: 24px;
+
+  font-family: "PT Serif", serif;
+}
+
+.date-style {
+  color: white;
+  text-shadow: #002855;
+  text-align: justify;
+  font-size: 24px;
+
+  font-family: "PT Serif", serif;
+}
+.con-style {
+  color: #002855;
+  text-shadow: #002855;
+  text-align: justify;
+  font-size: 24px;
+
+  font-family: "PT Serif", serif;
+}
+.hr-line {
+  width: 35px;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-top: -16px;
+}
+
+.nav-img {
+  width: 25%;
+}
+
+.about-img {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.bg-img-cof {
+  background-color: #cad2c5;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  background-repeat: no-repeat;
+}
+
+.cof-heading {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: auto;
+  color: #ffffff;
+  text-shadow: #2f3e46;
+  
+
+  font-size: 24px;
+
+  font-family: "PT Serif", serif;
+}
+
+
+table {
+  border: 1px solid black;
+}
+
+.list-group {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.com {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #060606;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+.header_img{
+height: 100px;
+}
+.header_content{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+.head_size{
+  height: 25px;
+}
+.tr{
+  align-items: center;
+}
+.nav_heading{
+  color: #ffffff;
+
+  
+
+  font-size: 24px;
+
+  font-family: "PT Serif", serif;
+
+}
+
+.nav_color{
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
