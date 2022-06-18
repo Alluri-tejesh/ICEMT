@@ -136,3 +136,19 @@ color: white;
   padding-bottom: 50px;
 }
 
+
+.submission_heading{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "PT Serif", serif;
+  color:#002855
+  
+}
+
+
+.submission_body{
+  font-size: 18px;
+  font-family: "PT Serif", serif;
+  color:#002855
+  
+}
