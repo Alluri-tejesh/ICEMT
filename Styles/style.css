@@ -148,7 +148,9 @@ color: white;
 
 .submission_body{
   font-size: 18px;
+  text-align: justify;
   font-family: "PT Serif", serif;
   color:#002855
+  
   
 }
