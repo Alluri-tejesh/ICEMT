@@ -15,6 +15,13 @@
 
   font-family: "PT Serif", serif;
 }
+.impdate-style {
+  color: #002855;
+  text-shadow: #002855;
+  font-size: 28px;
+  font-family: "PT Serif", serif;
+  margin-left: 25%;
+}
 
 .date-style {
   color: white;
@@ -37,6 +44,14 @@
   border: 1px solid;
   border-radius: 2px;
   margin-left: 2px;
+  margin-top: -16px;
+}
+
+.hr-line-date {
+  width: 90px;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 30%;
   margin-top: -16px;
 }
 
@@ -105,7 +120,11 @@ height: 100px;
   background: #0f0c29;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}  
+}
+
+.cpf_nav{
+  margin-top: 15%;
+}
 .head_size{
   height: 25px;
 }
@@ -128,6 +147,8 @@ height: 100px;
 background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color: white;
+margin-top: 9%;
+margin-bottom: 6%;
 }
 
 
@@ -153,4 +174,241 @@ color: white;
   color:#002855
   
   
+}
+
+
+.logo_style{
+
+  width: 100px;
+  margin-left: 45%;
+  margin-top: 2%;
+
+  position: fixed;
+  top: 0;
+  
+}
+
+.logo_bg{
+  background: white;
+  padding-bottom: 105px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .logo_style {
+    margin-left: 35%;
+  }
+
+  .nav_color{
+  margin-top: 35%;
+  }
+
+  .logo_bg{
+    background: white;
+    padding-bottom: 67px;
+  }
+}
+
+
+.marin_slide{
+  margin-top: 12%;
+}
+
+.slide_img{
+  height: 500px;
+}
+
+.slide1{
+  background-image: url('./images/Scroll\ 1.png');
+
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 250%;
+  height: 500px;
+  object-fit: fill;
+}
+
+.slide2{
+  background-image: url('./images/Scroll\ 2.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 250%;
+  height: 500px;
+  object-fit: fill;
+}
+
+.slid1_text{
+  color: white;
+  opacity: 1;
+  padding-left: -1%;
+  padding-top: 8%;
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.slid1_box{
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 40%;
+  height: 100%;
+  
+}
+
+
+.main_heading{
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 1.8vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  color: #952626;
+}
+
+
+.dates{
+  margin-left: 3%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.date_text{
+  color: #8f3535;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .logo_style{
+
+    width: 100px;
+    margin-left: 39%;
+    margin-top:11%;
+  
+    position: fixed;
+    top: 0;
+    
+  }
+
+  .logo_bg{
+    background: white;
+    padding-bottom: 89px;
+  }
+
+  .nav_color{
+    margin-top: 35%;
+  }
+  .marin_slide{
+    margin-top: 53%;
+  }
+
+
+  .slid1_box{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 40%;
+    height: 100%;
+    
+  }
+  .slide1{
+  background-image: url('./images/Scroll\ 1.png');
+
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 250%;
+  height: 200px;
+  object-fit: fill;
+}
+
+
+.slide2{
+  background-image: url('./images/Scroll\ 2.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 250%;
+  height: 200px;
+  object-fit: fill;
+}
+
+  .slid1_text{
+    color: white;
+    opacity: 1;
+    padding-left: -1%;
+    padding-top: 8%;
+    font-size: 1.8vh;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+}
+
+
+.cpf_container{
+  margin-left: 23%;
+  margin-top: 2%;
+}
+.cpf_info_list{
+  margin-left: 5%;
+  font-size: 18px;
+  font-weight: 900;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+
+.cfp_matter_style{
+  font-size: 18px;
+  font-weight: 900;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  .cpf_container{
+    margin-left: -2%;
+    margin-top: 4%;
+  }
+    .cpf_nav{
+      margin-top: 60%;
+    }
+ 
+
+}
+
+
+
+.submissiom_heading{
+  margin-top: 15%;
+}
+.com_t{
+  all: unset;
+}
+
+
+.nav-links{
+  color: #ffffff;
+  background-color: #220d73;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 50px;
+  text-align: justify;
+  font-size: 18px;
+ 
+}
+
+.nav-links:hover{
+  background-color: #101763;
+  color: white;
+
+}
+
+
+.com_container{
+  margin-top: 5%;
+}
+
+.list_com{
+  list-style: none;
 }
