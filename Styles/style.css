@@ -239,6 +239,15 @@ margin-bottom: 6%;
   object-fit: fill;
 }
 
+.slide3 {
+  background-image: url('./images/Scroll\ 3.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 250%;
+  height: 500px;
+  object-fit: contain;
+}
+
 .slid1_text{
   color: white;
   opacity: 1;
