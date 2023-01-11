@@ -421,3 +421,8 @@ margin-bottom: 6%;
 .list_com{
   list-style: none;
 }
+
+.normal_text{
+  font-weight: normal;
+  padding: 3px;
+}
